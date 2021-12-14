@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 10vw;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.disappear {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  bottom: 0;
+  top: 0;
+}
+
+.disappear span {
+  display: inline-block;
+  color: transparent;
+  text-shadow: 0px 0px 0px black;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.disappear span:nth-child(1) {
+  -webkit-animation-name: disappearleft;
+          animation-name: disappearleft;
+}
+
+.disappear span:nth-child(2) {
+  -webkit-animation-name: disappearleft;
+          animation-name: disappearleft;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.disappear span:nth-child(3) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.disappear span:nth-child(4) {
+  -webkit-animation-name: disappearleft;
+          animation-name: disappearleft;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.disappear span:nth-child(5) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.disappear span:nth-child(6) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+
+.disappear span:nth-child(7) {
+  -webkit-animation-name: disappearleft;
+          animation-name: disappearleft;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+.disappear span:nth-child(8) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+.disappear span:nth-child(9) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.disappear span:nth-child(10) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+}
+
+.disappear span:nth-child(11) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+}
+
+.disappear span:nth-child(12) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
+}
+
+.disappear span:nth-child(13) {
+  -webkit-animation-name: disappearight;
+          animation-name: disappearight;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes disappearleft {
+  50% {
+    transform: skew(50deg) translateY(-200%);
+    text-shadow: 0px 0px 50px;
+    opacity: 0;
+  }
+}
+
+@keyframes disappearleft {
+  50% {
+    transform: skew(50deg) translateY(-200%);
+    text-shadow: 0px 0px 50px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes disappearight {
+  50% {
+    transform: skew(-50deg) translateY(-200%);
+    text-shadow: 0px 0px 50px;
+    opacity: 0;
+  }
+}
+@keyframes disappearight {
+  50% {
+    transform: skew(-50deg) translateY(-200%);
+    text-shadow: 0px 0px 50px;
+    opacity: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
